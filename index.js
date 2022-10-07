@@ -62,12 +62,14 @@ function decrement(n) {
 
 // Parses n as an integer and returns the parsed integer.
 // JavaScript gives us tools to turn these strings into proper numbers.
+// ParseInt returns an integer. 
 
 function makeInt(n) {
     return parseInt(n, 10);
 }
 
 // Preserves n's decimals (it parses n as a floating point number) and returns the parsed number.
+// parseFloat preserves the decimal places.
 
 function preserveDecimal(n) {
     return parseFloat(n, 10);
